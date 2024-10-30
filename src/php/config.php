@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $dbname = 'shop_db';
-    private $user = 'root';
-    private $password = '';
+    private $dbname = 'site';
+    private $user = 'shop';
+    private $password = '1234';
     private $pdo;
 
     // Конструктор для подключения к базе данных
